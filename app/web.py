@@ -10,8 +10,8 @@ import html
 import sqlite3
 from app.main import ROOT, initialize, connect
 
-HOST = "127.0.0.1"
-PORT = 8000
+HOST = "0.0.0.0"
+PORT = int(os.environ.get("PORT", "8000"))
 STATUSES = ["Planned", "Active", "On Hold", "Completed", "Cancelled"]
 
 CSS = """
