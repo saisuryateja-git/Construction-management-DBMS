@@ -1,4 +1,5 @@
 """Local web interface for the Construction DBMS starter project.
+import os
 Run with: python3 web.py
 Then open: http://127.0.0.1:8000
 Uses Python's standard library; no extra packages required.
